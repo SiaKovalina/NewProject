@@ -1,0 +1,414 @@
+/*HELPER CLASSES*/
+.alignLeft {
+    float: left;
+}
+
+.alignRight {
+    float: right;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px
+}
+
+.margin-bottom-40 {
+    margin-bottom: 40px
+}
+
+/*
+strong, p {
+    font-weight: 700;
+}
+*/
+
+em, i {
+    font-style: italic;
+}
+
+p, 
+ul li, 
+ol li {
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 20px;
+}
+
+
+/*GENERAL RULES*/
+
+@font-face {
+    font-family: 'HelveticaNeue Thin';
+    src: local('HelveticaNeue-Thin.otf'), url('HelveticaNeue-Thin.otf') format('openType');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    padding: 40px 20px;
+}
+
+/*HERO SECTION*/
+
+#hero {
+    background-image: linear-gradient(rgba(218, 51, 46, 0.6), rgba(218, 51, 46, 0.6)), url(../img/hero-bg-2.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h2 {
+    font-size: 52px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav li a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 30px;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #fff transparent;
+    text-transform: uppercase;
+    transition: border-bottom .1s, color .1s;
+}
+
+.nav li a:hover {
+    border-bottom: 4px solid #fff;
+}
+
+#hero h2 {
+    color: #fff;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.cta {
+    display: inline-block;
+    margin-top: 90px;
+    position: relative;
+}
+
+.imgs {
+    float: right;
+    position: absolute;
+    right: -135px;
+}
+
+.iphone-off {
+    width: 85%;
+    position: relative;
+    margin-bottom: -240px;
+}
+
+.cta-info {
+    width: 60%;
+    padding-right: 150px;
+    float: left;
+}
+
+.hero-paragraph {
+    line-height: 40px;
+    font-family: 'HelveticaNeue-Thin';
+    font-size: 36px;
+    font-weight: 100;
+    color: #fff;
+    margin-bottom: 55px;
+}
+
+.cta-button {
+    padding: 23px 35px;
+    background: #282828;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background .1s;
+}
+
+.cta-button:hover {
+    background: #383737;
+}
+
+.iphone-icon {
+    vertical-align: middle;
+    padding-right: 20px;
+}
+
+/*APP FEATURES*/
+#app-features .container {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.app-features {
+    margin-bottom: 40px;
+    color: #8a8a8a;
+}
+
+.p-features {
+    font-family: 'HelveticaNeue-Thin';
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 28px;
+    padding: 0 130px;
+    color: #8a8a8a;
+}
+
+.col-4-app {
+    width: 33.3333%;
+    float: left;
+    padding: 0 45px;
+}
+
+.col-4-app p {
+    font-family: 'HelveticaNeue-Thin';
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 24px;
+    color: #646464;
+}
+
+.row {
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.row h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+/*NOSE*/
+#nose {
+    background-image: url(../img/nose-bg.png);
+/*    background-attachment: fixed;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#nose .container {
+    padding: 0;
+}
+
+.download-info {
+    width: 50%;
+    padding: 200px 0;
+}
+
+#nose h2 {
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+#nose p {
+    font-size: 24px;
+    font-family: 'HelveticaNeue Thin';
+    font-weight: 100;
+    line-height: 30px;
+    padding-bottom: 70px;
+}
+
+.download-btn {
+    padding: 15px;
+    background: #d9332d;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 30px;
+    transition: background .3s;
+    margin-left: 50px;
+}
+
+.download-btn:hover {
+    background-color: #c33934;
+}
+
+#nose h2 span {
+    color: #f55150;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #2e2e38;
+    color: #fff;
+}
+
+footer .container {
+    padding-top: 120px;
+}
+
+.footer-logo {
+    margin-bottom: 60px;
+}
+
+.row {
+    overflow: hidden;
+}
+
+.footer-col-4 {
+    width: 33.33%;
+    float: left;
+}
+
+.footer-col-4:nth-child(2) {
+    padding-right: 5%;
+}
+
+footer h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+footer .footer-col-4:first-child h4 {
+    margin-bottom: 25px;
+}
+
+footer .footer-col-4:nth-child(2) h4 {
+    margin-bottom: 45px;
+}
+
+footer .footer-col-4:nth-child(3) h4 {
+    margin-bottom: 35px;
+}
+
+.posts {
+    list-style: none;
+    overflow: hidden;
+}
+
+.posts li img {
+    padding-right: 15px;
+    float: left;
+}
+
+.posts li {
+    margin-bottom: 30px;
+    clear: both;
+}
+
+.popular-posts {
+    font-size: 15px;
+}
+
+.twitter-name {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.time-posted {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    margin-bottom: 25px
+}
+
+.footer-col-4:last-child p {
+    font-style: italic;
+}
+
+/*COPYRIGHT*/
+#copyright {
+    background: #d7dedc;
+}
+
+#copyright .container {
+    padding-top: 45px;
+    text-align: center;    
+}
+
+#copyright p {
+    display: inline-block;
+    font-family: 'HelveticaNeue Thin';
+    font-size: 25px;
+    font-weight: 700;
+    margin-right: 35px;
+}
+
+#copyright p span {
+    margin: 0 25px;
+}
+
+#copyright a {
+    margin-right: 40px;
+}
+
+/*ANIMATIONS*/
+
+.iphone-on {
+    position: absolute;
+    right: 175px;
+    top: 112px;
+    width: 54%;
+    z-index: 9999;
+}
+
+.iphone-btn {
+    position: absolute;
+    right: 215px;
+}
+
+.js-wp-2 {
+    opacity: 0;
+}
+
+.js-wp-2.animated {
+    opacity: 1;
+}
+
+.js-wp-3 {
+    opacity: 0;
+    animation-delay: 3.2s;
+}
+
+.js-wp-3.animated {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
