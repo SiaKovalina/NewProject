@@ -1,4 +1,7 @@
 $(function(){
+    
+
+    
     $('.js-wp-2').waypoint(function(direction) {
         $('.js-wp-2').addClass('animated slideInUp');
         
@@ -20,3 +23,10 @@ $(function(){
     $('.iphone-btn').delay(300).animate({top: '+=-3'}, 300);
     /*This delay takes place after the previous animation is finished*/
 });
+
+$(function(){
+    
+        new WOW().init();
+    
+});
+
